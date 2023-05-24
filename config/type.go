@@ -1,5 +1,7 @@
 package config
 
+var Cfg config
+
 type config struct {
 	// 全局配置
 	Global struct {
@@ -20,20 +22,20 @@ type config struct {
 		Service []struct {
 			Name     string   `yaml:"name"`
 			Protocol Protocol `yaml:"protocol"`
-			Addr     Addr     `yaml:"addr"`
+			Addr     AddrName `yaml:"addr"`
 		} `yaml:"service"`
 	} `yaml:"client"`
 	// 流量转发配置
-	Forward struct {
+	Forward []struct {
 		Name     string   `yaml:"name"`
 		Protocol Protocol `yaml:"protocol"`
-		Listen   Addr     `yaml:"listen"`
-		Target   Addr     `yaml:"target"`
+		Listen   AddrName `yaml:"listen"`
+		Target   AddrName `yaml:"target"`
 	} `yaml:"forward"`
-	Load struct {
-		Name     string   `yaml:"name"`
-		Protocol Protocol `yaml:"protocol"`
-		Services []Addr   `yaml:"services"`
+	Load []struct {
+		Name     string     `yaml:"name"`
+		Protocol Protocol   `yaml:"protocol"`
+		Servers  []AddrName `yaml:"servers"`
 	} `yaml:"load"`
 	Address []Addr
 }
