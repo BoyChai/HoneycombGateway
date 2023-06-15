@@ -7,7 +7,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-require github.com/BoyChai/Ant v0.0.0-20230531072349-a0cc5ed30417
+require github.com/BoyChai/Ant v0.0.0-20230531093241-6df0be20bb24
 
 require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect

@@ -23,7 +23,7 @@ func ReadConfig() error {
 	if err != nil {
 		return err
 	}
-	validator := Ant.New()
+	validator := Ant.New(Ant.Validator{Parity: Ant.Ant})
 	e := validator.Struct(Cfg)
 	if e.Is {
 		return errors.New(fmt.Sprint(e.Data))

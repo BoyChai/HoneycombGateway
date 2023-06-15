@@ -42,6 +42,8 @@ github.com/BoyChai/Ant v0.0.0-20230527013148-880ddd66d4b9 h1:bR3ZCRQp78sShDjuxhi
 github.com/BoyChai/Ant v0.0.0-20230527013148-880ddd66d4b9/go.mod h1:G/4ucdHD7EDRiE3OkVHGvVfrresGg/X8BBGv0Qo6R3E=
 github.com/BoyChai/Ant v0.0.0-20230531072349-a0cc5ed30417 h1:FEsSjOuTVgL0bit+Xb3hQfH/xrV1fUvzcZP8cMx2MbE=
 github.com/BoyChai/Ant v0.0.0-20230531072349-a0cc5ed30417/go.mod h1:G/4ucdHD7EDRiE3OkVHGvVfrresGg/X8BBGv0Qo6R3E=
+github.com/BoyChai/Ant v0.0.0-20230531093241-6df0be20bb24 h1:UWxOGGatMNDuyduk6pTvC+w9rzkli9x1wveNOV9SkPQ=
+github.com/BoyChai/Ant v0.0.0-20230531093241-6df0be20bb24/go.mod h1:G/4ucdHD7EDRiE3OkVHGvVfrresGg/X8BBGv0Qo6R3E=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
